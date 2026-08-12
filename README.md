@@ -1,16 +1,103 @@
-# React + Vite
+# Flaticon Icon Links
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple icon studio for managing and organizing icons for your projects.
 
-Currently, two official plugins are available:
+The application allows you to access icon URLs and tags, save icons using tags or collections, and search for icons based on how they are organized.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[Flaticon Icon Links](https://flaticon-icon-links.onrender.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Browse and manage icons
+- Access icon URLs
+- View tags associated with icons
+- Save icons using tags
+- Add icons to collections
+- Search icons by tags
+- Search icons within collections
+- Organize icons for different projects
+- Simple and responsive interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+
+Icons can be organized in different ways depending on how you want to use them.
+
+### Tags
+
+Icons can be saved and organized using tags. This makes it easier to find icons that belong to a particular category or purpose.
+
+For example:
+
+```text
+navigation
+social
+user
+settings
+dashboard
+
+Searching for a tag will show the icons associated with it.
+
+Collections
+
+Icons can also be added to collections. Collections allow you to group icons together for a particular project or purpose.
+
+For example:
+
+My Project
+├── Home
+├── Settings
+├── User
+└── Dashboard
+
+This makes it easier to keep related icons together and access them when working on a project.
+
+Getting Started
+Clone the repository
+git clone https://github.com/harsh6476-commits/Flaticon_Icon_Links.git
+Navigate to the project
+cd Flaticon_Icon_Links
+Install dependencies
+npm install
+Run the development server
+npm run dev
+
+The application will be available at the local URL provided by Vite.
+
+Build
+
+To create a production build:
+
+npm run build
+Preview Production Build
+
+To preview the production build locally:
+
+npm run preview
+Tech Stack
+React
+Vite
+JavaScript
+CSS
+Project Structure
+Flaticon_Icon_Links/
+├── public/
+├── src/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+Purpose
+
+This project was built to make it easier to manage and reuse icons while working on different projects.
+
+Instead of searching for the same icons repeatedly, icons can be organized using tags and collections and then found quickly through search.
+
+Author
+
+Harsh
+
+GitHub: https://github.com/harsh6476-commits
