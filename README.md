@@ -10,15 +10,15 @@ The application allows you to access icon URLs and tags, save icons using tags o
 
 ## Features
 
-- Browse and manage icons
-- Access icon URLs
-- View tags associated with icons
-- Save icons using tags
-- Add icons to collections
-- Search icons by tags
-- Search icons within collections
-- Organize icons for different projects
-- Simple and responsive interface
+* Browse and manage icons
+* Access icon URLs
+* View tags associated with icons
+* Save icons using tags
+* Add icons to collections
+* Search icons by tags
+* Search icons within collections
+* Organize icons for different projects
+* Simple and responsive interface
 
 ## How It Works
 
@@ -36,51 +36,80 @@ social
 user
 settings
 dashboard
+```
 
 Searching for a tag will show the icons associated with it.
 
-Collections
+### Collections
 
 Icons can also be added to collections. Collections allow you to group icons together for a particular project or purpose.
 
 For example:
 
+```text
 My Project
 ├── Home
 ├── Settings
 ├── User
 └── Dashboard
+```
 
 This makes it easier to keep related icons together and access them when working on a project.
 
-Getting Started
-Clone the repository
+## Getting Started
+
+### Clone the repository
+
+```bash
 git clone https://github.com/harsh6476-commits/Flaticon_Icon_Links.git
-Navigate to the project
+```
+
+### Navigate to the project
+
+```bash
 cd Flaticon_Icon_Links
-Install dependencies
+```
+
+### Install dependencies
+
+```bash
 npm install
-Run the development server
+```
+
+### Run the development server
+
+```bash
 npm run dev
+```
 
 The application will be available at the local URL provided by Vite.
 
-Build
+## Build
 
 To create a production build:
 
+```bash
 npm run build
-Preview Production Build
+```
+
+## Preview Production Build
 
 To preview the production build locally:
 
+```bash
 npm run preview
-Tech Stack
-React
-Vite
-JavaScript
-CSS
-Project Structure
+```
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+## Project Structure
+
+```text
 Flaticon_Icon_Links/
 ├── public/
 ├── src/
@@ -90,13 +119,15 @@ Flaticon_Icon_Links/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-Purpose
+```
+
+## Purpose
 
 This project was built to make it easier to manage and reuse icons while working on different projects.
 
 Instead of searching for the same icons repeatedly, icons can be organized using tags and collections and then found quickly through search.
 
-Author
+## Author
 
 Harsh
 
